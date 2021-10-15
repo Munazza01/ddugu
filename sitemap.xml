@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+	<url>
+		<loc>
+			http://ddugubca-env.eba-kxpmupuy.ap-south-1.elasticbeanstalk.com/
+		</loc>
+		<changefreq>weekly</changefreq>
+		<priority>1.00</priority>
+	</url>
+	
+	<url>
+		<loc>
+			http://ddugubca-env.eba-kxpmupuy.ap-south-1.elasticbeanstalk.com/index.jsp
+		</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.85</priority>
+		</url>
+			
+	<url>
+		<loc>
+			http://ddugubca-env.eba-kxpmupuy.ap-south-1.elasticbeanstalk.com/jsp/contact.jsp
+		</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.85</priority>
+	</url>
+	
+	
+	<url>
+		<loc>
+			http://ddugubca-env.eba-kxpmupuy.ap-south-1.elasticbeanstalk.com/jsp/about.jsp
+		</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.85</priority>
+	</url>
+	
+	
+	<url>
+		<loc>
+			http://ddugubca-env.eba-kxpmupuy.ap-south-1.elasticbeanstalk.com/jsp/login.jsp
+		</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.85</priority>
+	</url>
+	
+	<url>
+		<loc>
+			http://ddugubca-env.eba-kxpmupuy.ap-south-1.elasticbeanstalk.com/jsp/register.jsp
+		</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>
+	
+	<url>
+		<loc>
+			http://ddugubca-env.eba-kxpmupuy.ap-south-1.elasticbeanstalk.com/jsp/student_panel.jsp
+		</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>	
+	
+	<url>
+		<loc>
+			http://ddugubca-env.eba-kxpmupuy.ap-south-1.elasticbeanstalk.com/jsp/teacher_panel.jsp
+		</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>	
+	
+	<url>
+		<loc>
+			http://ddugubca-env.eba-kxpmupuy.ap-south-1.elasticbeanstalk.com/jsp/change_email.jsp
+		</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>	
+	
+	<url>
+		<loc>
+			http://ddugubca-env.eba-kxpmupuy.ap-south-1.elasticbeanstalk.com/jsp/change_password.jsp
+		</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>	
+	
+	<url>
+		<loc>
+			http://ddugubca-env.eba-kxpmupuy.ap-south-1.elasticbeanstalk.com/jsp/mcqs.jsp
+		</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>	
+	
+	<url>
+		<loc>
+			http://ddugubca-env.eba-kxpmupuy.ap-south-1.elasticbeanstalk.com/jsp/crud_mcqs.jsp
+		</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>	
+	
+	<url>
+		<loc>
+			http://ddugubca-env.eba-kxpmupuy.ap-south-1.elasticbeanstalk.com/jsp/forum.jsp
+		</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>	
+	
+	<url>
+		<loc>
+			http://ddugubca-env.eba-kxpmupuy.ap-south-1.elasticbeanstalk.com/jsp/thread.jsp
+		</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>	
+	
+	<url>
+		<loc>
+			http://ddugubca-env.eba-kxpmupuy.ap-south-1.elasticbeanstalk.com/jsp/semester1.jsp
+		</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>	
+	
+	<url>
+		<loc>
+			http://ddugubca-env.eba-kxpmupuy.ap-south-1.elasticbeanstalk.com/jsp/semester2.jsp
+		</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>	
+	
+	<url>
+		<loc>
+			http://ddugubca-env.eba-kxpmupuy.ap-south-1.elasticbeanstalk.com/jsp/semester3.jsp
+		</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>	
+	
+	<url>
+		<loc>
+			http://ddugubca-env.eba-kxpmupuy.ap-south-1.elasticbeanstalk.com/jsp/semester4.jsp
+		</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>	
+	
+	<url>
+		<loc>
+			http://ddugubca-env.eba-kxpmupuy.ap-south-1.elasticbeanstalk.com/jsp/semester5.jsp
+		</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>	
+	
+	<url>
+		<loc>
+			http://ddugubca-env.eba-kxpmupuy.ap-south-1.elasticbeanstalk.com/jsp/semester6.jsp
+		</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>	
+	
+	<url>
+		<loc>
+			http://ddugubca-env.eba-kxpmupuy.ap-south-1.elasticbeanstalk.com/jsp/error_404.jsp
+		</loc>
+		<changefreq>weekly</changefreq>
+		<priority>0.8</priority>
+	</url>	
+</urlset>
