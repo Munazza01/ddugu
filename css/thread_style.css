@@ -1,0 +1,291 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Spectral', serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    'header header header header header header'
+	'middle middle middle middle middle middle'
+    'footer footer footer footer footer footer';
+        
+}
+
+.header {
+  display: grid;
+  grid-area: header;
+  grid-template-areas: 
+    'logo logo nav nav nav nav'
+    'click click click click click click';
+  background-color: #2eb2ff;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+
+.logo {
+  grid-area: logo;
+  padding-left: 10px;
+}
+
+.logo img {
+  height: 80px;
+}
+.topnav {
+  grid-area: nav;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: 0;
+  background-color: #2eb2ff;
+}
+
+.topnav a {
+
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #00A1FF;
+  border-radius: 5px;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #00A1FF;
+  border-radius: 5px;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.middle {
+	grid-area : middle;
+	display: grid;
+	grid-template-areas:
+		'thr thr thr thr ques ques';
+	padding : 10px;
+	grid-gap : 5px;
+}
+
+.middle h2 {
+	margin: 0;
+	text-align: center;
+	background-image: url(../images/stardust.png);
+	color: white;
+}
+.thread {
+	grid-area : thr;
+}
+
+.thread h3 {
+	margin: 5px;
+	padding: 5px;
+	color: #444349;
+	background-color: #80808008;
+	border-radius: 5px;
+	box-shadow: 0 8px 6px -6px black;
+	
+}
+
+.block {
+	margin: 10px;
+	padding-left: 10px;
+	background-color: #f0f0f0;
+	border-radius: 5px;
+	box-shadow: 0 8px 6px -6px black;
+	
+}
+
+.reply {
+	
+	word-wrap: break-word;
+    font-size: medium;
+    padding-right : 5px;
+
+}
+.user,
+.date-time {
+	margin : 0;
+	font-size: small;
+	color: #000000c4;
+}
+
+.container {
+	padding : 10px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.comment button {
+  background-color: #1E90FF;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.comment button:hover {
+  background-color: #C71585;
+}
+
+
+.ques {
+	grid-area : ques;
+	border-style: solid;
+	border-color: #3c4041;
+	border-width: thin;
+	max-height : 600px;
+	overflow-y: scroll;
+
+}
+
+.q {
+	padding-left: 10px;
+	word-wrap: break-word;
+}
+
+.fa-quora::before {
+    content: "\f2c4";
+    color: #454a48;
+}
+.q a {
+	color: #0b9b9b;
+	text-decoration: none;
+}
+
+/* Style the footer */
+.footer {
+  grid-area: footer;
+  display: grid;
+  grid-template-areas: 
+    'loc loc con con cpr cpr';
+  padding-top: 20px;
+  color: white;
+  background-color: #51585b;
+  height: 100%;
+  box-shadow: 0px 0 5px rgba(0, 0, 0, 0.8);
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+.location,
+.links,
+.copyright {
+  text-align: justify;
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin-left: 15px;
+  margin-right: auto;
+}
+
+.location {
+  grid-area: loc;
+}
+.links {
+  grid-area: con;
+}
+
+.copyright {
+  grid-area: cpr;
+  
+}
+
+.links button {
+  background-color: #51585b;
+  color: white;
+  padding: 10px 20px;
+  font-size: 15px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.links button:hover {
+  background-color: #444646;
+  font-size: large;
+  transition : 0.3s;
+  
+}
+
+
+
+@media (max-width: 600px) {
+  .topnav a {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media (max-width: 600px) {
+  .topnav.responsive {
+    grid-area: click;
+    width: 100%;
+    display: inline-flex;
+  }
+  
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+  }
+  .topnav.responsive a {
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+  }
+}
+
+@media (max-width: 600px) {
+	.middle {
+		grid-template-areas:
+		'thr thr thr thr thr thr'
+		'ques ques ques ques ques ques';
+	}
+}
+@media (max-width: 600px) {
+  .footer  {
+    grid-template-areas: 
+      'loc loc loc loc loc loc'
+      'con con con con con con'
+      'cpr cpr cpr cpr cpr cpr'; 
+  }
+
+  .location,
+  .links,
+  .copyright {
+
+    margin-left: 10px;
+
+  }
+}
